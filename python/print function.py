@@ -7,8 +7,15 @@ print("-----------------------------------")
 print("Hellow\bWorld")
 
 print("***********************************")
+name = 'kamal'
 age = 22
 score = 67.85
-print(age)
-print(score)
+print(name,end='-')
+print(age,end='-')
+print(score,end='')
+
+print("***********************************")
+
+print(name,age,score,sep='\n')
+
 
