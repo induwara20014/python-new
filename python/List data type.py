@@ -10,3 +10,9 @@ my_list = ['kamal',20,'kandy',False,20]
 print(my_list[-5])
 print(my_list[2:4])
 print(my_list[0:3])
+print(my_list[0:3:2])
+print(my_list[::2])
+
+my_list = ['kamal',20,'kandy',False,20,[4,5,6]]
+print(my_list[-1])
+print(my_list[5][0])
